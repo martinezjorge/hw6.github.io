@@ -1,0 +1,136 @@
+/* Color Palette
+# - rgb(2,0,36) with a gradient
+# - #ffffff
+# - #161a54
+# - black
+*/
+
+/* Global styles 
+------------------------------------*/
+
+html, body {
+    margin: 0;
+    /* background-color: ; Beccapurple */
+    background: rgb(2,0,36);
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(113,113,224,1) 29%, rgba(0,181,255,1) 100%); 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    background: #ffffff;
+	width: 80%;
+	margin: 0 auto;
+	/* margin-left: auto; */
+	padding: 2.5% 2.5% 0;
+    line-height: 1.8;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+
+.nav {
+    background: #161a54;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    color: white;
+    /* position: fixed; */
+}
+
+.photo_prop {
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+    width: 60%;
+    height: auto;
+    /* bottom: 0; */
+
+}
+
+nav ul {
+    text-align: center;
+}
+
+li {
+    display:inline-block;
+    /* text-align: center; */
+    text-decoration: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+
+    background: #161a54;
+    color: white;
+    bottom : 0;
+    /* position: fixed; */
+    width: 100%;
+    height: 15em;
+    text-align: center;
+    display: inline-block;
+
+}
+.main {
+    float: left;
+    height: 50rem;
+    /* display: inline-block; */
+}
+
+.overflow {
+    overflow-wrap: break-word;
+}
+
+/* .column {
+    width: 10%; 
+} */
+
+.flowLeft {
+    float: left;
+}
+
+.flowRight {
+    float: right;
+}
+
+.icon {
+    margin: 1em;
+}
+
+.info {
+    margin: 1em;
+}
+
+.copy {
+    bottom:0;
+}
+
+/* Work Experience
+------------------------------------*/
+
+/* .work {
+
+
+} */
+
+.details{
+    background: lightgreen;
+
+}
+
+
+/* Education
+------------------------------------*/
+
+/* .education {
+
+} */
+
+/* .school {
+
+} */
